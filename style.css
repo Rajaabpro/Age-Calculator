@@ -10,7 +10,7 @@ body{
     color: white;
 }
 .container{
-    background-color: black;
+    background-color: rgb(46, 45, 45);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 20px 35px 35px rgba(0, 0, 0, 0.5);
@@ -29,7 +29,7 @@ label{
     display: block;
     color: white;
 }
-input[type="data"]{
+input[type="date"]{
     width: 100%;
     padding: 10px;
     margin:10px 0;
@@ -67,7 +67,7 @@ button:hover{
 #results{
     margin-top: 20px;
     font-size: 1.5rem;
-    font-size: bold;
+    font-weight: bold;
     color: #fff;
 
 }
