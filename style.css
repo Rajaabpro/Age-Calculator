@@ -18,3 +18,56 @@ body{
     text-align: center;
     max-width: 400px; width: 100%;
 }
+h1{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: yellowgreen;
+}
+label{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+    color: white;
+}
+input[type="data"]{
+    width: 100%;
+    padding: 10px;
+    margin:10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #485460;
+    color: white;
+    
+}
+
+input:focus{
+    border: 1px solid #4cd137;
+    outline: none;
+}
+button{
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #44bd32;
+    color: #1e272e;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+button:hover{
+    background: #4cd137;
+    box-shadow: 0 0 15px #3ae374, 0 0 30px #32ff7e;
+    transform: scale(1.05);
+}
+
+#results{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-size: bold;
+    color: #fff;
+
+}
