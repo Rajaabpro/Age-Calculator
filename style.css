@@ -6,7 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f1f1f1;
+    background-color: yellowgreen ;
     color: white;
 }
 .container{
@@ -16,7 +16,9 @@ body{
     box-shadow: 20px 35px 35px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     text-align: center;
-    max-width: 400px; width: 100%;
+    max-width: 400px; 
+    width: 100%;
+    
 }
 h1{
     margin-bottom: 20px;
@@ -68,6 +70,7 @@ button:hover{
     margin-top: 20px;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #fff;
+    color: #d21b1b;
+    display: flex;
 
 }
